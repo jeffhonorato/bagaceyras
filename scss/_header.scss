@@ -1,0 +1,47 @@
+.header {
+    height: 100vh;
+    background-color: #000;
+
+    background-image: url("../img/header/background-header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.picure__logo {
+    display: flex;
+    justify-content: center;
+
+    .logo {
+        width: 25rem; /* 400px  */
+        margin-top: 2rem;
+
+
+    }
+}
+
+.nav {
+    margin-top: 2rem;
+
+    .nav__itens {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav__link {
+        background-color: red;
+        padding: .5rem;
+        border-radius: 5px;
+        border: 2px solid #fff;
+    }
+    
+    .nav__item {
+        color: #fff;
+    }
+
+
+}
+
