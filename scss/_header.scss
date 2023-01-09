@@ -35,11 +35,22 @@
         background-color: red;
         padding: .5rem;
         border-radius: 5px;
-        border: 2px solid #fff;
+        border: 1px solid #fff;
+
+            &:hover {
+                transition: all .5s;
+                background-color: #fff;
+                border: 1px solid red;
+            }
+
+            &:hover .nav__item {
+                color: #000;
+            }
     }
     
     .nav__item {
         color: #fff;
+        font-family: $fonte-menu;
     }
 
 
