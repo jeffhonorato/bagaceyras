@@ -2,7 +2,7 @@
 $fonte-menu: 'Aref Ruqaa', serif;
 $fonte-titulo: 'Charm', cursive;
 $fonte-corpo: 'Cormorant Infant', serif;
- 
+$cor-background: #590d0f; 
 
 
 
@@ -29,3 +29,4 @@ ul, li {
 
 /******* MONTAGEM PÁGINA *******/
 @import "header";
+@import "historia";
