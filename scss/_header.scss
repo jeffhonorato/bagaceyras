@@ -26,7 +26,12 @@
 .nav {
     margin-top: 2rem;
     
-    
+    .logo__menu {
+        width: 60px;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
 
     .nav__itens {
         display: flex;
@@ -39,9 +44,11 @@
             gap: .3rem;
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            align-items: flex-end;
 
             position: fixed;
+            top: 58px;
+            right: 5px;
         }
     }
 
