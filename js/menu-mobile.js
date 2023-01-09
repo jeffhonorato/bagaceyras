@@ -3,9 +3,8 @@ const menu = () => {
     menuMobile.addEventListener("click", () => {
         const itensMenu = document.querySelector(".js-nav-itens");
         itensMenu.classList.toggle("ativo");
-        console.log(itensMenu)
     }); 
 };
 
-menu()
+menu();
 
