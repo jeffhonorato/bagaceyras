@@ -8,7 +8,7 @@
     background-attachment: fixed;
 }
 
-.picure__logo {
+.picture__logo {
     display: flex;
     justify-content: center;
 
@@ -16,18 +16,33 @@
         width: 25rem; /* 400px  */
         margin-top: 2rem;
 
+        @include celular {
+            width: 13rem;
+        }
 
     }
 }
 
 .nav {
     margin-top: 2rem;
+    
+    
 
     .nav__itens {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 1rem;
+        margin-left: .2rem;
+
+        @include celular {
+            gap: .3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            position: fixed;
+        }
     }
 
     .nav__link {
@@ -46,6 +61,7 @@
             &:hover .nav__item {
                 color: #000;
             }
+            
     }
     
     .nav__item {
@@ -53,7 +69,14 @@
         font-family: $fonte-menu;
         text-align: center;
         font-size: 1.2rem;
+
+        @include celular {
+            font-size: .7rem;
+        }
+      
     }
+
+    
 
 
 }

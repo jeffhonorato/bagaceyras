@@ -27,6 +27,15 @@ ul, li {
     list-style: none;
 }
 
+/******* MIXINS *******/
+@mixin celular {
+    @media(max-width:420px) {
+        @content;
+    }
+}
+
+
+
 /******* MONTAGEM PÁGINA *******/
 @import "header";
 @import "historia";
