@@ -32,15 +32,16 @@
     }
 
     .nav__link {
-        background-color: red;
-        padding: .5rem;
+        background-color: #BE1D23;
+        padding: .4rem .8rem;
         border-radius: 5px;
         border: 1px solid #fff;
+
 
             &:hover {
                 transition: all .5s;
                 background-color: #fff;
-                border: 1px solid red;
+                border: 1px solid #BE1D23;
             }
 
             &:hover .nav__item {
@@ -51,6 +52,8 @@
     .nav__item {
         color: #fff;
         font-family: $fonte-menu;
+        text-align: center;
+        font-size: 1.2rem;
     }
 
 
